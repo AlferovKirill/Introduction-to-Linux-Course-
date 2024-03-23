@@ -10,4 +10,6 @@
 
 <p align="justify">В целом, курс предоставил мне твердую основу для дальнейшего изучения Linux и его инструментов.</p>
 
-![Сертификат по курсу Института Биоинформатики "Введение в Linux"](https://github.com/AlferovKirill/Linux-Courses/blob/main/Введение_в_Linux/Сertificate.png)
+<a href="https://stepik.org/cert/2149335">Сертификат курса на Stepik.org</a>
+
+![Сертификат по курсу Института Биоинформатики "Введение в Linux"](https://github.com/AlferovKirill/Linux-Courses/assets/59083480/a0f6b3a6-45f1-4e1a-a0e0-8dd610740996)
