@@ -2,6 +2,7 @@ Language: Cpp
 BasedOnStyle: LLVM
 IndentWidth: 4
 ColumnLimit: 0
+PointerAlignment: Left
 BreakBeforeBraces: Attach
 IndentCaseLabels: true
 AllowShortBlocksOnASingleLine: Always
@@ -11,3 +12,7 @@ AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: true
+NamespaceIndentation: All
+AccessModifierOffset: -4
+SortIncludes: false
+SortUsingDeclarations: false
