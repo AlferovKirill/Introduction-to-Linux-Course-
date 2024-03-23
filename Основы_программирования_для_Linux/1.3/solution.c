@@ -6,8 +6,8 @@
 
 int (*someSecretFunctionPrototype)(int);
 
-bool initDL(const char *dlName, const char *functionName) {
-    void *hdl = dlopen(dlName, RTLD_LAZY);
+bool initDL(const char* dlName, const char* functionName) {
+    void* hdl = dlopen(dlName, RTLD_LAZY);
 
     if (hdl == NULL) {
         return false;
@@ -22,7 +22,7 @@ bool initDL(const char *dlName, const char *functionName) {
     }
 }
 
-int main(int argCount, char **argValues) {
+int main(int argCount, char** argValues) {
     if (initDL(argValues[1], argValues[2])) {
         printf("%d\n", someSecretFunctionPrototype(atoi(argValues[3])));
     } else {
